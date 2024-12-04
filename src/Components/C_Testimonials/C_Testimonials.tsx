@@ -90,7 +90,6 @@ function C_TestmoinalsCardSlider() {
       />
 
       <div
-        data-aos="fade-up"
         className="flex transition-transform duration-500 ease-in-out gap-4 mt-10"
         style={{
           transform: `translateX(-${currentIndex * (100 / testimonialsPerPage)}%)`,
@@ -115,7 +114,7 @@ function C_TestmoinalsCardSlider() {
 
       </div>
 
-      <div data-aos="zoom" className="flex justify-center mt-10 gap-3">
+      <div className="flex justify-center mt-10 gap-3">
         <button
           className="w-12 h-12 rounded-full bg-white dark:bg-dark-buttonBg text-black dark:text-white"
           onClick={handlePrev}

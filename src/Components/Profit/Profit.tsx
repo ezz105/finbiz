@@ -7,7 +7,7 @@ function Profit() {
       <div className=" grid grid-cols-12 gap-4 mt-8 md:gap-6 rounded-3xl lg:mx-20 dark:bg-dark-priceCardBg bg-light-buttonBg p-4 relative z-20">
       
         {/* First Card */}
-        <div data-aos="fade-right" className="bg-white flex flex-col justify-between dark:bg-dark-pageBg col-span-12 lg:col-span-4 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-center text-black dark:text-white p-6">
+        <div className="bg-white flex flex-col justify-between dark:bg-dark-pageBg col-span-12 lg:col-span-4 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-center text-black dark:text-white p-6">
           <header className="flex justify-between">
             <p className="text-lg font-light">Total Profit</p>
             <p className="text-sm text-dark-lightGreen font-semibold">+18.23</p>
@@ -19,7 +19,7 @@ function Profit() {
         </div>
 
         {/* Second Card */}
-        <div data-aos="zoom-in" className="bg-white dark:bg-dark-pageBg col-span-12 lg:col-span-4 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300 text-center text-black dark:text-white p-6">
+        <div className="bg-white dark:bg-dark-pageBg col-span-12 lg:col-span-4 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300 text-center text-black dark:text-white p-6">
           <header className="flex justify-between">
               <p className="text-lg font-light">Total revenue</p>
               <p className="text-sm text-red-600 font-semibold">+28.35</p>
@@ -31,7 +31,7 @@ function Profit() {
         </div>
 
         {/* Third Card */}
-        <div data-aos="fade-left" className="bg-white dark:bg-dark-pageBg col-span-12 lg:col-span-4 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-center text-black dark:text-white p-6">
+        <div className="bg-white dark:bg-dark-pageBg col-span-12 lg:col-span-4 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-center text-black dark:text-white p-6">
           <header className="flex justify-between">
             <p className="text-lg font-light">Product sold</p>
             <p className="text-sm text-blue-600 font-semibold">+28.35</p>
@@ -43,7 +43,7 @@ function Profit() {
         </div>
 
         {/* Fourth Card */}
-        <div data-aos="fade-right" className="bg-white dark:bg-dark-pageBg col-span-12 lg:col-span-2 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-start text-black dark:text-white p-4">
+        <div className="bg-white dark:bg-dark-pageBg col-span-12 lg:col-span-2 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-start text-black dark:text-white p-4">
 
           <header className="flex justify-between">
             <p className="text-base font-light">Total Balance</p>
@@ -68,12 +68,12 @@ function Profit() {
         </div>
 
         {/* Fifth Card */}
-        <div data-aos="fade-left"className="bg-white lg:flex hidden  flex-col justify-between dark:bg-dark-pageBg col-span-12 lg:col-span-8 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-start text-black dark:text-white p-2">
+        <div className="bg-white lg:flex hidden  flex-col justify-between dark:bg-dark-pageBg col-span-12 lg:col-span-8 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-start text-black dark:text-white p-2">
           <ReactChart />
         </div>
 
         {/* Sixth Card */}
-        <div data-aos="fade-left" className="lg:flex hidden flex-col justify-between col-span-12 lg:col-span-2 rounded-2xl text-start text-black dark:text-white p-2">
+        <div className="lg:flex hidden flex-col justify-between col-span-12 lg:col-span-2 rounded-2xl text-start text-black dark:text-white p-2">
             <div className="mt-2">
               <h5>Employee</h5>
               <img src=" /smallRec.svg" className="my-3 w-2/3" />

@@ -47,7 +47,6 @@ function CardsGroup() {
 
       {/*  Third Card: Easy Collaboration */}
       <div
-        data-aos="fade-left"
         className="bg-white dark:bg-dark-priceCardBg col-span-12 lg:col-span-3 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-center text-black dark:text-white p-6"
       >
         <h4 className="text-lg lg:text-xl mb-2">Easy Collaboration</h4>
@@ -61,7 +60,6 @@ function CardsGroup() {
 
       {/* Fourth Card: Real-time Accounting */}
       <div
-        data-aos="fade-right"
         className="bg-white lg:block hidden dark:bg-dark-priceCardBg col-span-12 lg:col-span-6 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-start text-black dark:text-white p-6"
       >
         <h4 className="mb-2 text-lg lg:text-xl">
@@ -135,7 +133,6 @@ function CardsGroup() {
 
       {/* Fifth Card: Optimist Expense Management */}
       <div
-        data-aos="fade-left"
         className="bg-white flex flex-col justify-between text-center dark:bg-dark-priceCardBg col-span-12 lg:col-span-6 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  lg:text-start text-black dark:text-white p-6"
       >
         <h4 className="lg:text-4xl text-2xl lg:leading-snug leading-tight font-semibold mt-4">
