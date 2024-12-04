@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "../Button";
 
 function Navbar() {
@@ -14,6 +14,12 @@ function Navbar() {
     setIsDark(!isDark);
     console.log(isDark);
   };
+
+  // set the default theme to dark
+  useEffect(() => {
+    document.getElementsByTagName("html")[0].classList.add("dark");
+    setIsDark(true);
+  }, []);
 
   return (
     <header className="bg-light-navbarBg  dark:bg-dark-navbarBg">
@@ -123,16 +129,16 @@ function Navbar() {
             {/* Add the Button component here for mobile menu */}
             <Button
               functionSend={toggleTheme}
-              text={isDark ? "🌞" : "🌙"}
-              className="rounded-3xl bg-light-buttonBg hover:dark:bg-gray-800 dark:bg-dark-buttonBg text-black dark:text-white p-3 w-28 text-sm font-medium shadow-inner-top-light dark:shadow-inner-top-dark hover:bg-light-buttonHover dark:hover:bg-dark-buttonHover"
+              text={isDark ? "🔆" : "🌙"}
+              className="rounded-3xl bg-light-buttonBg hover:dark:bg-gray-800 dark:bg-dark-buttonBg text-black dark:text-white p-1 w-28 text-sm font-medium shadow-inner-top-light dark:shadow-inner-top-dark hover:bg-light-buttonHover dark:hover:bg-dark-buttonHover"
             />
           </ul>
         </div>
 
         <Button
           functionSend={toggleTheme}
-          text={isDark ?  "🌙" : "🌞"}
-          className="hidden md:block rounded-3xl bg-light-buttonBg hover:dark:bg-gray-800 dark:bg-dark-buttonBg text-black dark:text-white p-3 w-28 text-sm font-medium shadow-inner-top-light dark:shadow-inner-top-dark hover:bg-light-buttonHover dark:hover:bg-dark-buttonHover"
+          text={isDark ? "🔆" : "🌙"}
+          className="hidden md:block rounded-3xl bg-light-buttonBg hover:dark:bg-gray-800 dark:bg-dark-buttonBg text-black dark:text-white p-1  text-sm font-medium shadow-inner-top-light dark:shadow-inner-top-dark hover:bg-light-buttonHover dark:hover:bg-dark-buttonHover"
         />
       </nav>
     </header>

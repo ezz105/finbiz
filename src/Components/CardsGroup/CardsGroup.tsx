@@ -5,7 +5,7 @@ function CardsGroup() {
     <section className="container mx-auto grid grid-cols-12 gap-4 mt-20 md:gap-6 px-4 lg:px-24 relative z-20">
       {/* First Card: Simple Analytics */}
       <div
-        data-aos="fade-right"
+       
         className="bg-white flex flex-col justify-between dark:bg-dark-priceCardBg col-span-12 lg:col-span-3 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-center text-black dark:text-white p-6"
       >
         <h4 className="text-lg lg:text-xl">Simple Analytics</h4>
@@ -26,7 +26,7 @@ function CardsGroup() {
 
       {/* Second Card: Boosting Business */}
       <div
-        data-aos="zoom-in"
+       
         className="bg-white dark:bg-dark-priceCardBg col-span-12 lg:col-span-6 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-center text-black dark:text-white p-6"
       >
         <h4 className="text-lg lg:text-xl mb-2">
@@ -97,7 +97,7 @@ function CardsGroup() {
                 </p>
                 <img src=" /RectangleBig.svg" alt="progress bar" />
               </div>
-              <i className="fa-solid fa-ellipsis-vertical"></i>
+              <i className="hio-ellipsis-vertical  bg-red-400"></i>
             </article>
 
             <article className="flex items-center justify-between mb-4">

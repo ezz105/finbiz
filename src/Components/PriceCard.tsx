@@ -1,4 +1,6 @@
+import { CheckIcon } from '@heroicons/react/24/solid'
 import Button from './Button'
+
 
 interface PriceCardProps {
   title: string
@@ -33,7 +35,7 @@ function PriceCard({ title, desc, price, listofbenifits, ButtonDesing, isSpical 
         <ul className='space-y-1 text-left'>
           {listofbenifits.map((benifit, index) => (
             <li key={index} className='flex items-center space-x-2 text-gray-700 dark:text-white text-sm'>
-              <i className='fa-solid fa-check text-black dark:text-white'></i>
+              <CheckIcon className='text-black dark:text-white w-4 h-4'></CheckIcon>
               <span>{benifit}</span>
             </li>
           ))}

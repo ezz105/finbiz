@@ -2,6 +2,8 @@ import  { useState, useEffect } from "react";
 import HeadingTitle from "../HeadingTitle";
 import HeadingDescription from "../HeadingDescription";
 import TestimonialCard from "../TestimonialCard";
+import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/24/solid';
+
 
 function C_TestmoinalsCardSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -81,7 +83,7 @@ function C_TestmoinalsCardSlider() {
 
   return (
     <div className="container mx-auto py-24 md:py-20 px-4 lg:px-24 overflow-hidden">
-      <HeadingTitle icon="fa-regular fa-message" title="Testimonials" />
+      <HeadingTitle icon="fa-regular hio hio-chat-bubble-left-right" title="Testimonials" />
       <HeadingDescription
         mainTitle="What are people saying"
         subTitle="Thank you for your trust in Crypt Land! We are grateful for your feedback and are committed to providing the best [products/ <br> services offered]. Read what our clients have to say about their experience with us."
@@ -118,13 +120,13 @@ function C_TestmoinalsCardSlider() {
           className="w-12 h-12 rounded-full bg-white dark:bg-dark-buttonBg text-black dark:text-white"
           onClick={handlePrev}
         >
-          <i className="fa-solid fa-arrow-left"></i>
+          <ArrowLeftIcon className="p-2"></ArrowLeftIcon>
         </button>
         <button
           className="w-12 h-12 rounded-full bg-dark-lightGreen text-black"
           onClick={handleNext}
         >
-          <i className="fa-solid fa-arrow-right"></i>
+          <ArrowRightIcon className="p-2"></ArrowRightIcon>
         </button>
       </div>
     </div>
