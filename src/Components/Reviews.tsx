@@ -5,7 +5,7 @@ function Reviews() {
   return (
         <figure className='flex flex-col items-center' >
           <img src=" /reviews.svg" />
-          <p className='text-sm dark:text-dark-paragraphText text-light-paragraphText font-bold mt-2 mb-6  '>1,200+ reviews {textOfReviwes}</p>
+          <b className='text-sm dark:text-dark-paragraphText text-light-paragraphText font-bold mt-2 mb-6  '>2,200+ reviews  {textOfReviwes}</b>
         </figure>
     )
 }

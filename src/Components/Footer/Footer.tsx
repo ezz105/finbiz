@@ -5,7 +5,6 @@ function Footer() {
     <footer className="bg-light-navbarBg dark:bg-dark-navbarBg pb-6 text-white overflow-hidden">
       <div className="container mx-auto grid grid-cols-12 gap-8 pt-20 pb-2 lg:px-28 md:px-12 px-4">
         
-        {/* Left Section: Logo and Socials */}
         <div  className="lg:col-span-4 col-span-12">
           <figure className="flex items-center gap-3 cursor-pointer mb-5">
             <img src=" /logo.svg" alt="logo" className="w-8" />
@@ -18,7 +17,6 @@ function Footer() {
             analysis and reporting.
           </p>
           
-          {/* Social Media Icons */}
           <article className="flex gap-2 mt-4">
             <a href="#">
               <img
@@ -51,7 +49,6 @@ function Footer() {
           </article>
         </div>
 
-        {/* Company Links */}
         <div className="lg:col-span-2 col-span-12">
           <h3 className="font-semibold text-lg mb-3 dark:text-dark-headingText text-black">
             Company
@@ -84,7 +81,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Help Links */}
         <div className="lg:col-span-2 col-span-12">
           <h3 className="font-semibold text-lg mb-3 dark:text-dark-headingText text-black">
             Help
@@ -117,13 +113,11 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Newsletter Section */}
         <div className="lg:col-span-4 col-span-12 hidden lg:block">
         <h3 className="font-semibold text-lg mb-3 dark:text-dark-headingText text-black">
           Subscribe to Newsletter
         </h3>
 
-        {/* Newsletter input and button */}
         <div className="flex flex-col md:flex-row gap-4 md:gap-6 rounded-lg dark:bg-dark-cardBg bg-white w-full sm:max-w-full md:max-w-lg my-8 mx-auto shadow-md overflow-hidden">
           <input
             type="email"
@@ -139,7 +133,6 @@ function Footer() {
 
       </div>
 
-      {/* Footer Bottom */}
       <div className="border-t-2 border-gray-800 mt-8 pt-4 text-center text-xs text-gray-500 mx-20">
         <p  className="dark:text-white text-black py-2 text-sm">  
           © Copyright 2024, All Rights Reserved by FinBiz

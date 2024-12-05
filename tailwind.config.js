@@ -5,55 +5,55 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        'inner-top-light': 'inset 0px 1px 1px rgba(0, 0, 0, 0.5)', // Light mode shadow
-        'inner-top-dark': 'inset 0px 1px 1px rgba(211, 211, 211, 0.5)', // Dark mode shadow
+        'inner-top-light': 'inset 0px 1px 1px rgba(0, 0, 0, 0.5)', 
+        'inner-top-dark': 'inset 0px 1px 1px rgba(211, 211, 211, 0.5)',
       },
       colors: {
-        // Light mode colors
-        light: {
-          analyticsBg: "#E5EADB",
-          navbarBg: "#FFFFFF", // Navbar background color
-          buttonBg: "#F6F6F6",
-          pageBg: "#F6F6F6", // Main page background color
-          headingText: "#000000", // Heading text color
-          priceCardBg : "#F4F4F4",
-          paragraphText: "#828282", // Paragraph text color
-          cardBg: "#FFFFFF", // Cards background color
-          primary: "#1E40AF", // Custom primary color (used across modes)
-          secondary: "#F59E0B", // Custom secondary color
-          accent: "#10B981", // Accent color
-          danger: "#EF4444", // Danger color
-          customGray: {
-            light: "#F3F4F6", // Custom light gray
-            DEFAULT: "#9CA3AF", // Custom default gray
-            dark: "#4B5563", // Custom dark gray
-          },
-        },
-        // Dark mode colors
         dark: {
+          iconsBgColor: "#4B4B4B",
+          headingText: "#FFFFFF", 
+          paragraphText: "#9B9CA1", 
+          cardBg: "#242424", 
           analyticNumberColor : "#33C6AB",
           analyticsBg: "#242424",
-          navbarBg: "#0F0F0F", // Navbar background color
+          navbarBg: "#0F0F0F", 
           buttonBg: "#1F1F1F",
           priceCardBg : "#161616",
-          pageBg: "#1D1C20", // Main page background color
+          pageBg: "#1D1C20", 
           greenBg: "#171F05",
           lightGreen: "#A3DC2F",
           darkGreen:"#1F7A1F",
-          iconsBgColor: "#4B4B4B",
-          headingText: "#FFFFFF", // Heading text color
-          paragraphText: "#9B9CA1", // Paragraph text color
-          cardBg: "#242424", // Cards background color
-          primary: "#1E40AF", // Primary color (used across modes)
-          secondary: "#F59E0B", // Secondary color
-          accent: "#10B981", // Accent color
-          danger: "#EF4444", // Danger color
+          primary: "#1E40AF", 
+          secondary: "#F59E0B", 
+          accent: "#10B981", 
+          danger: "#EF4444", 
           customGray: {
-            light: "#F3F4F6", // Custom light gray
-            DEFAULT: "#9CA3AF", // Custom default gray
-            dark: "#4B5563", // Custom dark gray
+            light: "#F3F4F6", 
+            DEFAULT: "#9CA3AF", 
+            dark: "#4B5563", 
           },
         },
+
+        
+          light: {
+            primary: "#1E40AF", 
+            secondary: "#F59E0B", 
+            accent: "#10B981", 
+            danger: "#EF4444", 
+            customGray: {
+              light: "#F3F4F6", 
+              DEFAULT: "#9CA3AF", 
+              dark: "#4B5563", 
+              analyticsBg: "#E5EADB",
+              navbarBg: "#FFFFFF", 
+              buttonBg: "#F6F6F6",
+              pageBg: "#F6F6F6", 
+              headingText: "#000000", 
+              priceCardBg : "#F4F4F4",
+              paragraphText: "#828282", 
+              cardBg: "#FFFFFF",
+            },
+          },
       },
     },
   },

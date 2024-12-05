@@ -42,7 +42,6 @@ function PriceCard({ title, desc, price, listofbenifits, ButtonDesing, isSpical 
         </ul>
       </div>
 
-      {/* Button at the bottom */}
       <div className='mt-10 mx-3'>
         <Button text="Get Started" className={`w-full py-2.5 rounded-full ${ButtonDesing}`} />
       </div>

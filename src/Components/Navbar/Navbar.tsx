@@ -126,7 +126,6 @@ function Navbar() {
               Pricing
             </li>
 
-            {/* Add the Button component here for mobile menu */}
             <Button
               functionSend={toggleTheme}
               text={isDark ? "🔆" : "🌙"}

@@ -3,9 +3,7 @@ import Button from "../Button";
 function CardsGroup() {
   return (
     <section className="container mx-auto grid grid-cols-12 gap-4 mt-20 md:gap-6 px-4 lg:px-24 relative z-20">
-      {/* First Card: Simple Analytics */}
       <div
-       
         className="bg-white flex flex-col justify-between dark:bg-dark-priceCardBg col-span-12 lg:col-span-3 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-center text-black dark:text-white p-6"
       >
         <h4 className="text-lg lg:text-xl">Simple Analytics</h4>
@@ -24,9 +22,7 @@ function CardsGroup() {
         </div>
       </div>
 
-      {/* Second Card: Boosting Business */}
       <div
-       
         className="bg-white dark:bg-dark-priceCardBg col-span-12 lg:col-span-6 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-center text-black dark:text-white p-6"
       >
         <h4 className="text-lg lg:text-xl mb-2">
@@ -45,7 +41,6 @@ function CardsGroup() {
         </div>
       </div>
 
-      {/*  Third Card: Easy Collaboration */}
       <div
         className="bg-white dark:bg-dark-priceCardBg col-span-12 lg:col-span-3 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-center text-black dark:text-white p-6"
       >
@@ -58,7 +53,6 @@ function CardsGroup() {
         </figure>
       </div>
 
-      {/* Fourth Card: Real-time Accounting */}
       <div
         className="bg-white lg:block hidden dark:bg-dark-priceCardBg col-span-12 lg:col-span-6 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  text-start text-black dark:text-white p-6"
       >
@@ -71,13 +65,11 @@ function CardsGroup() {
         </p>
 
         <div className="flex flex-col lg:flex-row justify-between gap-8 items-end">
-          {/* Left Section */}
           <div className="flex-shrink-0 mb-4 lg:mb-0">
             <h4 className="text-lg lg:text-xl font-semibold">$3453.00</h4>
             <img src=" /groupOfParagraph.svg" alt="paragraph illustration" />
           </div>
 
-          {/* Right Section (Invoices) */}
           <div className="flex-grow border-2 dark:border-neutral-800 border-neutral-300  rounded-lg p-4 bg-light-pageBg dark:bg-dark-pageBg">
             <h4 className="font-semibold text-sm lg:text-base mb-4">
               Monthly Invoice
@@ -131,7 +123,6 @@ function CardsGroup() {
         </div>
       </div>
 
-      {/* Fifth Card: Optimist Expense Management */}
       <div
         className="bg-white flex flex-col justify-between text-center dark:bg-dark-priceCardBg col-span-12 lg:col-span-6 rounded-2xl border-2 dark:border-neutral-800 border-neutral-300  lg:text-start text-black dark:text-white p-6"
       >

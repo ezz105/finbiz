@@ -5,7 +5,6 @@ function C_Fplan() {
     <section className="bg-light-pageBg dark:bg-dark-pageBg py-10 md:py-20 px-4 lg:px-24">
       <article className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center bg-white dark:bg-dark-navbarBg rounded-3xl p-6 md:p-10 gap-10">
         
-        {/* Text Section */}
         <div className="flex flex-col justify-center space-y-6 text-center lg:text-left lg:pl-12">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-light-headingText dark:text-white lg:leading-tight mb-4">
             Let’s Upgrade your <br /> finances experience <br /> by using FinBiz
@@ -23,7 +22,6 @@ function C_Fplan() {
 
         </div>
 
-        {/* Image Section */}
         <figure className="flex justify-center lg:justify-end">
           <img
             src=" /planUpgrade.svg"

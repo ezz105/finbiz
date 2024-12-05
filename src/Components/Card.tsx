@@ -1,7 +1,7 @@
 
 
 
-function AiCard() {
+function Card() {
   return (
     <article  className="flex items-center gap-2 mx-auto border border-black w-fit py-0.5 px-1.5 rounded-2xl cursor-pointer dark:bg-dark-greenBg bg-white ">
       <div className="bg-dark-lightGreen text-white py-0.5  rounded-2xl w-9 text-center text-[12px]">New</div>
@@ -11,4 +11,4 @@ function AiCard() {
   );
 }
 
-export default AiCard;
+export default Card;
