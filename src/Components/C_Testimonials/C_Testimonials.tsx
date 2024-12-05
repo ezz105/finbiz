@@ -7,7 +7,7 @@ import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/24/solid';
 
 function C_TestmoinalsCardSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [testimonialsPerPage, setTestimonialsPerPage] = useState(3); // Default to 3 items per page
+  const [testimonialsPerPage, setTestimonialsPerPage] = useState(3);
 
   const testimonials = [
     {
@@ -83,7 +83,7 @@ function C_TestmoinalsCardSlider() {
 
   return (
     <div className="container mx-auto py-24 md:py-20 px-4 lg:px-24 overflow-hidden">
-      <HeadingTitle icon="fa-regular hio hio-chat-bubble-left-right" title="Testimonials" />
+      <HeadingTitle icon="hio hio-chat-bubble-left-right" title="Testimonials" />
       <HeadingDescription
         mainTitle="What are people saying"
         subTitle="Thank you for your trust in Crypt Land! We are grateful for your feedback and are committed to providing the best [products/ <br> services offered]. Read what our clients have to say about their experience with us."

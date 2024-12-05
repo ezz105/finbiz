@@ -102,7 +102,7 @@ function CardsGroup() {
                 </p>
                 <img src=" /RectangleBig.svg" alt="progress bar" />
               </div>
-              <i className="fa-solid fa-ellipsis-vertical"></i>
+              <i className="hio hoi-ellipsis-vertical"></i>
             </article>
 
             <article className="flex items-center justify-between">
@@ -117,7 +117,7 @@ function CardsGroup() {
                 </p>
                 <img src=" /RectangleSmall.svg" alt="progress bar" />
               </div>
-              <i className="fa-solid fa-ellipsis-vertical"></i>
+              <i className="hio hio-ellipsis-vertical"></i>
             </article>
           </div>
         </div>
